@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#190357;
+    border: 5px solid #141212;
+    padding: 10px 20px
+}
+h1{
+    color: #fff;
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: 5px 5px #000;
+    
+}

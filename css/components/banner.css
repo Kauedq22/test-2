@@ -1,0 +1,27 @@
+.banner{
+    display: flex;
+    background-image: url(../../assets/ka.png);
+    background-repeat: no-repeat;
+    height: 570px;
+    background-size: cover;
+    background-position:center;
+    padding-top: 105px;
+    padding-left: 91px;
+    border-bottom: 8px solid rgb(0, 0, 0);
+}
+.banner .wrapper{   
+   display: flex;
+    flex-direction: column;
+    width: 600px;
+    
+}
+.banner .box{
+    margin-bottom:40px;
+
+}
+.banner .navigation{  
+    display: flex;
+    justify-content: space-around;
+    
+}
+

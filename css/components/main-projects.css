@@ -1,0 +1,18 @@
+.wrapper-second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.main-projects .logo{
+    background-color: #3A4042;
+}
+.main-projects{
+    background-color: #8BBAAF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    height: 274px;
+    width: 280px;
+    box-shadow: 7px 7px 0px #190357;
+}

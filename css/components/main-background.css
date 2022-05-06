@@ -1,0 +1,12 @@
+.background{
+    background-color: #190357;
+    height: 570px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 8px solid #fff;  
+}
+
+.background.-second{
+    background-color: #FF0440;
+    height: 400px;
+}

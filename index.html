@@ -1,0 +1,149 @@
+<!Doctype html>
+<html lang="pt-BR">
+<head>
+    <title>kaue</title>
+    <meta charset="utf-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/subtitle.css">
+    <link rel="stylesheet" href="css/components/box.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/action.css">
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/main-background.css">
+    <link rel="stylesheet" href="css/components/main-skils.css">
+    <link rel="stylesheet" href="css/components/main-progress.css">
+    <link rel="stylesheet" href="css/components/main-projects.css">
+
+
+</head>
+<script>
+    function showModal() {
+    var element = document.getElementById("modal");
+    element.classList.add("show-modal");
+}
+
+function closeModal() {
+    var element = document.getElementById("modal");
+    element.classList.remove("show-modal");
+}
+</script>
+    <body>
+        <header class="header">    <!--cabeçalho-->
+
+            <img src="assets/eu.png" alt="kaue">
+
+            <nav>   <!--navegaçao-->
+                <a class="action" href="" lang="en">Skils</a> 
+                <a class="action" href="">Projetos</a>
+                <a class="action" href="">Sobre</a>
+                <a class="main-button" href="">Curriculo Cv</a>
+               
+            </nav>
+
+        </header>
+        
+        <section class="banner">
+            <div class="wrapper">
+                <div class="box">
+                    <h2 class="main-title">Kauê de Quadros</h2>
+                    <h3 class="subtitle">Intern</h3> 
+                </div>
+                <div class="navigation">
+                        <a class="main-button" href="">Dowload Cv</a>
+                        <button class=" styled" onclick="showModal()"> Contatos </button>
+                            <div class="modal" id="modal">
+                                <div class="modal-content">
+                                    <span class="close-button" onclick="closeModal()">
+                                        &times;
+                                    </span>
+                                    <h1>Contato</h1>
+                                    <form
+                                      action="https://formsubmit.co/kauedq12@gmail.com"
+                                      method="POST"
+                                      class="form"
+                                    >
+                                      <label for="name">Nome</label>
+                                      <input type="text" name="name" id="name" required />
+                                      <label for="email">E-mail</label>
+                                      <input type="email" name="email" id="email" required />
+                                      <label for="message">Mensagem</label>
+                                      <textarea name="message" id="message" required></textarea>
+                                      <input type="hidden" name="_captcha" value="false" />
+                                      <input
+                                        type="hidden"
+                                        name="_next"
+                                        value="https://kauedq22.github.io/"
+                                      />
+                                      <button type="submit">Enviar</button>
+                                    </form>
+                                </div>
+            
+                </div>
+            </div>       
+        </section>
+            
+        <section class="background">
+            <h2 class="main-title -second">Skils</h2>
+
+            <div class="ah">
+                <article class="main-skils">       
+                    <img class="icon" src="img/ico_html5.png" alt="">
+                    <div class="right">
+                        <h3 class ="title -terceiro">Html</h3>
+                        <progress class="main-progress" max="100" value="75">75%</progress>
+                    </div>  
+               </article>
+
+               <article class="main-skils">       
+                <img class="icon" src="img/ico_css.png" alt="">
+                <div class="right">
+                    <h3 class ="title -terceiro">Css</h3>
+                    <progress class="main-progress -s" max="100" value="70">70%</progress>
+                </div>  
+                </article>
+
+                <article class="main-skils">       
+                <img class="icon" src="img/ico_python.png" alt="">
+                <div class="right">
+                    <h3 class ="title -terceiro">Python</h3>
+                    <progress class="main-progress -s" max="100" value="50">50%</progress>
+                </div>  
+                </article>
+
+                <article class="main-skils">       
+                    <img class="icon" src="img/ico_c++.png" alt="">
+                    <div class="right">
+                        <h3 class ="title -terceiro">C++</h3>
+                        <progress class="main-progress" max="100" value="50">50%</progress>
+                    </div>  
+               </article>
+            </div>
+        </section>
+
+        <section class="background -second">
+            <h2 class="main-title -second">Projetos</h2>
+
+            <div class="wrapper-second">
+                <a href="https://github.com/Kauedq22" target="blank">
+                    <figure class="main-projects">
+                            <img class="logo" src="img/githubb.png"  alt="">
+                    </figure>
+                </a>
+                <a href="https://kauedq22.github.io/">
+                    <figure class="main-projects">
+                        <img src="img/eu 1.png"  alt="">
+                    </figure>
+                </a>
+        </div> 
+        </section>
+    </body>
+</html>
+ 

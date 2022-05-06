@@ -1,0 +1,12 @@
+body{
+    font-family: "Fira Code", sans-serif, inherit;
+    
+}
+
+body, h1, h2, h3, .main-projects{
+    margin: 0;
+}
+
+header img{
+    height: 75px;
+}

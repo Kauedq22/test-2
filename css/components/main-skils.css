@@ -1,0 +1,22 @@
+.ah{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-skils{
+    display: flex;
+    font-family:'Press Start 2P', sans-serif ;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 135px;
+    margin-top: 57px ;
+    
+}
+.main-skils .icon {
+    padding-right: 25px;
+}
+.main-skils .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
